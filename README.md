@@ -12,7 +12,7 @@ zplug "cibinmathew/cycle-fav-dirs"
 ```
 
 ### Manually
-Clone this repository to some dir and then source it `.zshrc`
+Clone this repository to some dir and then source it in `.zshrc`
 
 ```zsh
 git clone git@github.com:cibinmathew/cycle-fav-dirs.git ~/.zsh/plugins/cycle-fav-dirs
