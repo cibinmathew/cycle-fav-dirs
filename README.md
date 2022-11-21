@@ -1,5 +1,5 @@
 # cycle-fav-dirs
-[ZSH](https://www.zsh.org/) plugin to cycle through your favourite directories using a hotkey. Listed on [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) 
+[ZSH](https://www.zsh.org/) plugin to cycle through your favourite directories using a hotkey. Listed on [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins#plugins) 
 
 
 ![screenshot](https://github.com/cibinmathew/cycle-fav-dirs/blob/main/images/cycle-fav-dirs-demo.gif?raw=true)
