@@ -59,7 +59,8 @@ bindkey "\es" cycle-fav-dir-next  # Alt-s (or Option-s) to switch through the fa
 
 
 ## Inspired by
-[dircycle](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/dircycle/dircycle.plugin.zsh)
++ [dircycle](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/dircycle/dircycle.plugin.zsh)
++ [fzf-marks](https://github.com/urbainvaes/fzf-marks)
 
 
 
