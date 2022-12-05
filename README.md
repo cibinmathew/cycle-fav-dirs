@@ -21,22 +21,27 @@ source ~/.zsh/plugins/cycle-fav-dirs/cyclefavdirs.plugin.zsh
 ```
 
 ## CONFIGURATION
-Put any of below in your .zshrc configuration to use a custom list of favourites
 
-```zsh
-CYCLE_FAV_DIRS_CMD='echo "/Users/username/Projects
-/Users/username/Downloads
-$HOME
-"'
-```
-    
- ```zsh
-CYCLE_FAV_DIRS_CMD='recent_dirs|head -n 5|uniq -i'
-```
-```zsh
-CYCLE_FAV_DIRS_CMD='cat ~/.z|cut -d"|" -f1'
-```
+1. Put any of below in your .zshrc configuration to use a custom list of favourites
 
+    ```zsh
+    CYCLE_FAV_DIRS_CMD='echo "/Users/username/Projects
+    /Users/username/Downloads
+    $HOME
+    "'
+    ```
+        
+     ```zsh
+    CYCLE_FAV_DIRS_CMD='recent_dirs|head -n 5|uniq -i'
+    ```
+    ```zsh
+    CYCLE_FAV_DIRS_CMD='cat ~/.z|cut -d"|" -f1'
+    ```
+
+2. bind your favourite key 
+    ```sh
+    bindkey "\es" cycle-fav-dir-next
+    ```
 ### Sample configuration
 
 ```zsh
