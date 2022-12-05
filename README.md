@@ -48,7 +48,7 @@ CYCLE_FAV_DIRS_CMD='echo "/Users
 /Users/cibin/Library/Application Support/Sublime Text/Packages/sublime_quickfix_list/tests
 "'
 
-bindkey "\es" cycle-fav-dir-next
+bindkey "\es" cycle-fav-dir-next  # Alt-s (or Option-s) to switch through the fav dirs
 
 ```
 
