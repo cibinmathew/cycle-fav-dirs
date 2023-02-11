@@ -8,14 +8,14 @@
 
 ### Using [zplug](https://github.com/zplug/zplug)
 
-```
+```zsh
 zplug "cibinmathew/cycle-fav-dirs"
 ```
 
 ### Manually
 Clone this repository to some dir and then source it in `.zshrc`
 
-```zsh
+```bash
 git clone git@github.com:cibinmathew/cycle-fav-dirs.git ~/.zsh/plugins/cycle-fav-dirs
 source ~/.zsh/plugins/cycle-fav-dirs/cyclefavdirs.plugin.zsh
 ```
@@ -39,7 +39,7 @@ source ~/.zsh/plugins/cycle-fav-dirs/cyclefavdirs.plugin.zsh
     ```
 
 2. bind your favourite key 
-    ```sh
+    ```zsh
     bindkey "\es" cycle-fav-dir-next
     ```
 ### Sample configuration
