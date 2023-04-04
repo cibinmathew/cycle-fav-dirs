@@ -32,10 +32,10 @@ source ~/.zsh/plugins/cycle-fav-dirs/cyclefavdirs.plugin.zsh
     ```
         
      ```zsh
-    CYCLE_FAV_DIRS_CMD='recent_dirs|head -n 5|uniq -i'
+    CYCLE_FAV_DIRS_CMD='recent_dirs|head -n 5|uniq -i'  # generate dynamically using own scripts
     ```
     ```zsh
-    CYCLE_FAV_DIRS_CMD='cat ~/.z|cut -d"|" -f1'
+    CYCLE_FAV_DIRS_CMD='cat ~/.z|cut -d"|" -f1'  # use list from z[https://github.com/rupa/z]
     ```
 
 2. bind your favourite key 
