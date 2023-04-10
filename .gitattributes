@@ -3,3 +3,4 @@
 
 # Shell scripts require LF
 *.sh    text eol=lf
+*.zsh    text eol=lf
