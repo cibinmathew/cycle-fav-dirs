@@ -11,8 +11,9 @@ cd-to-fav-dir () {
     local next
     next=0
     for ((i=0; i < ${#fav_dirs[@]}; i++)); do
-         # TODO ignore trailing slash differences
-        if [[ $PWD/ ==  "${fav_dirs[@]:$i:1}/" ]]; then
+        fpath="${fav_dirs[@]:$i:1}"  # get ith element
+        fpath=${fpath%/}  # remove trailing slash
+        if [[ $PWD ==  $fpath ]]; then
             if [ $((i+1)) -eq "${#fav_dirs[@]}" ]; then
                 next=0
             else
